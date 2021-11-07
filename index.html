@@ -1,0 +1,85 @@
+<html>
+
+    <head>
+        <link href="recursos/estilos.css" rel="stylesheet" />
+    </head>
+    
+    <body>
+        <h4>Etiquetas HTML</h4>
+
+        <fieldset>
+            <legend>Input</legend>
+            <input type="text" id="txtMensaje"/>
+            <input type="button" value="Cambiar Fondo" onclick="CambiarFondo()" />
+            <input type="checkbox" />
+            <input type="radio" name="grupo1" />
+            <input type="radio" name="grupo1" />
+        </fieldset>    
+
+        <fieldset>
+            <legend>General</legend>
+            <div class="fondoAzul bordeBlanco" id="miDivision">
+                Soy un div
+            </div>
+            <br />
+            <img id="misionTic" src="https://www.enter.co/wp-content/uploads/2021/07/misionTIC-1104x621.jpg" />
+            <br />
+            <a href="https://www.ucaldas.edu.co">Visitar página de UCaldas</a>
+            <br />
+            <strong>Texto fuerte (en negrilla)</strong>        
+        </fieldset>
+
+        <fieldset>
+            <legend>Tabla</legend>
+            <table class="fondoAzul">
+                <thead>
+                    <tr>
+                        <th>
+                            Nombres
+                        </th>
+                        <th>
+                            Apellidos
+                        </th>
+                        <th>
+                            Edad
+                        </th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            María 
+                        </td>
+                        <td>
+                            Fernández
+                        </td>
+                        <td>
+                            24
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            José
+                        </td>
+                        <td>
+                            García
+                        </td>
+                        <td>
+                            48
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </fieldset>
+
+        <div class="fondoAzul bordeBlanco">
+            <strong>Último texto en negrilla</strong> 
+        </div>
+
+        <script src="recursos/funciones.js" type="text/javascript"></script>
+
+    </body>
+
+</html>
